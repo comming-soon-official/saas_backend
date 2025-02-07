@@ -1,0 +1,25 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@aws-sdk/client-ec2": "^3.743.0",
+        "@parse/s3-files-adapter": "3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "parse-dashboard": "^6.0.0",
+        "parse-server": "^7.4.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    }
+}
